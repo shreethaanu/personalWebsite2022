@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              link="https://github.com/thaanurk/Bits-0f-C0de"
             />
           </Col>
 
@@ -70,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="BCardAr"
               description=" An Augmented reality based business card viewer application in iOS. "
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              link="https://github.com/thaanurk/AI_For_Social_Good"
             />
           </Col>
 
@@ -81,7 +81,7 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              link="https://github.com/thaanurk/Face_And_Emotion_Detection"
             />
           </Col>
         </Row>
