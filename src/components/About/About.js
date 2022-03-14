@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import photowall from "../nikonkido/photowall";
 
 function About() {
   return (
@@ -46,6 +47,9 @@ function About() {
         <Toolstack />
 
         <Github />
+        <photowall>
+
+        </photowall>
       </Container>
     </Container>
   );
