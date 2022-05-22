@@ -20,7 +20,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/shreethaanu/personalWebsite2022). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [shreethaanu](https://github.com/shreethaanu/personalWebsite2022). Thanks!
 
 ## Built With
 
