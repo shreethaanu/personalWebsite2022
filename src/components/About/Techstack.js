@@ -4,12 +4,11 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiUnitySmall,
   DiApple,
   DiPython,
   DiGit,
   DiSwift,
-  DiOpensource
+  DiOpensource,
 } from "react-icons/di";
 
 function Techstack() {
@@ -26,9 +25,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiUnitySmall />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiOpensource />

@@ -7,17 +7,22 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
+
+       
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Shree Thaanu </span>
-            from <span className="purple"> India.</span>
-            <br />I am an Apple Platforms Developer & Design-Technologist.
+            based out of <span className="purple"> India.</span>
+            <br />I am an Apple Platforms Developer, XR Researcher & Design-Technologist.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />  Travelling 
+              <ImPointRight /> Travelling 
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Photography <a href="https://www.instagram.com/nikonkido">(follow my page on instagram)</a>
             </li>
             <li className="about-activity">
               <ImPointRight /> Writting Tech Blogs
@@ -25,6 +30,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
+           
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
