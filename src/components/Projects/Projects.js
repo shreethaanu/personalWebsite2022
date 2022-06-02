@@ -26,12 +26,32 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Weather App"
-              description="A simple weather app built with swift along with UIKit. It uses the openweathermap API to fetch the weather data and displays it according to location"
-              link="https://github.com/shreethaanu/WeatherApp-Swift"
+              title="STR VR Room"
+              description="Designing my personal room into a gaming scene. Added hand interaction with Oculus Intreaction SDK."
+              link="https://github.com/shreethaanu/myVrRoom"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Metaverse-Shopping"
+              description="A oculus app made for shopping in ecommerce. Its a grocery story where you can go and buy the things. Simple scene with ray interactor and some cool design."
+              link="https://github.com/shreethaanu/oculusEcomm"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="shrees-iOS-opensource"
+              description="My iOS Opensource projects . This can be used for startups as a starter project. . There would be variety of Diff domain projects you can find here."
+              link="https://github.com/shreethaanu/shrees-iOS-opensource"
+            />
+          </Col>
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -50,17 +70,7 @@ function Projects() {
               description="An extension for blocking sites that makes me less productive during work hours.
               For me Ecommerce be the major diversion, add your sites and use it.
               Stay productive ! Lets crush it 🔥🔥🔥🔥🔥"
-              link=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/shreethaanu/Bits-0f-C0de"
+              link="https://github.com/shreethaanu/str_blocker_extension"
             />
           </Col>
 
@@ -76,14 +86,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={suicide}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/shreethaanu/Face_And_Emotion_Detection"
+              title="Weather APP"
+              description=" A simple weather app looks similar to iOS app made with swift and a opensource api for a better design of weather app. "
+              link="https://github.com/shreethaanu/WeatherApp-Swift"
             />
           </Col>
+        
         </Row>
       </Container>
     </Container>
