@@ -3,12 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import myVrRoom from "../../Assets/Projects/myroom.png";
+import warehouse from "../../Assets/Projects/warehouse.png";
+import websiteblocker from "../../Assets/Projects/websiteblocker.png";
+import movierecommend from "../../Assets/Projects/movierecommend.png";
+import opensource from "../../Assets/Projects/opensource.png";
+import weatherapp from "../../Assets/Projects/weatherapp.png";
+import armarker from "../../Assets/Projects/armarker.png";
 
 function Projects() {
   return (
@@ -24,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={myVrRoom}
               isBlog={false}
               title="STR VR Room"
               description="Designing my personal room into a gaming scene. Added hand interaction with Oculus Intreaction SDK."
@@ -34,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={warehouse}
               isBlog={false}
               title="Metaverse-Shopping"
               description="A oculus app made for shopping in ecommerce. Its a grocery story where you can go and buy the things. Simple scene with ray interactor and some cool design."
@@ -44,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={opensource}
               isBlog={false}
               title="shrees-iOS-opensource"
               description="My iOS Opensource projects . This can be used for startups as a starter project. . There would be variety of Diff domain projects you can find here."
@@ -54,7 +55,7 @@ function Projects() {
         
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={movierecommend}
               isBlog={false}
               title="Movie Recommeder System"
               description="A movie system that built using Python with the help of Correlation recommends movies based on the user's taste. It uses the movie data and displays it according to location"
@@ -64,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={websiteblocker}
               isBlog={false}
               title="Str_blocker_extension"
               description="An extension for blocking sites that makes me less productive during work hours.
@@ -76,7 +77,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={armarker}
               isBlog={false}
               title="BCardAr"
               description=" An Augmented reality based business card viewer application in iOS. "
@@ -86,7 +87,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weatherapp}
               isBlog={false}
               title="Weather APP"
               description=" A simple weather app looks similar to iOS app made with swift and a opensource api for a better design of weather app. "
